@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="flex justify-between items-center bg-black border-b border-slate-900 px-10 py-10">
       <Link href="/">
-        <p className="font-semibold text-white">QrGenrator</p>
+        <p className="font-semibold text-white">Safwan-Idris-QrGenrator</p>
       </Link>
 
       <div className="max-md:hidden flex gap-5">
