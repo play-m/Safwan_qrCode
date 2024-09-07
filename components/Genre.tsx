@@ -25,7 +25,7 @@ const Genre = () => {
           value={text}
           onChange={(e) => setText(e.target.value)}
           onClick={genretQr}
-          className="border border-slate-800 bg-slate-900 py-5 px-24 rounded-md text-white font-[20px] text-start"
+          className="border border-slate-800 bg-slate-900 py-5 px-24 rounded-md text-white font-[20px] text-start max-md:px-10 max-md:py-4"
           required
         />
       </div>

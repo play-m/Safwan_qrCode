@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Qr Code",
+  title: "Safwan Qr code",
   description: "Generated & share QrCode",
 };
 
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className="bg-black">
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
