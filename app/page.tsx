@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Genre from "@/components/Genre";
 
 export default function Home() {
