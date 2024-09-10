@@ -20,15 +20,13 @@ export default function RootLayout({
           name="google-adsense-account"
           content="ca-pub-4444982234880637"
         ></meta>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4444982234880637"
+     crossorigin="anonymous"></script>
       </head>
       <body className="bg-black">
         <Navbar />
         {children}
         <Footer />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4444982234880637"
-        ></script>
       </body>
     </html>
   );
